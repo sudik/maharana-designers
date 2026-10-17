@@ -29,3 +29,6 @@ next-env.d.ts
 
 # claude
 .claude/
+
+# deploy artifacts
+*-deploy.zip
