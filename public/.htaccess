@@ -1,0 +1,8 @@
+ErrorDocument 404 /404.html
+
+<IfModule mod_php.c>
+  php_flag display_errors off
+</IfModule>
+
+# Serve correct content types
+AddType application/font-woff2 .woff2

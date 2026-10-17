@@ -30,7 +30,7 @@ export default function EnquiryForm() {
     const payload = Object.fromEntries(formData.entries());
 
     try {
-      const res = await fetch("/api/enquiry", {
+      const res = await fetch("/enquiry.php", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
