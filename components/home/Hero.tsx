@@ -28,7 +28,7 @@ export default function Hero() {
           poster="/images/hero-poster.jpg"
           className="h-full w-full object-cover"
         >
-          <source src="/videos/hero-kitchen.mp4" type="video/mp4" />
+          <source src="/videos/hero-reel.mp4" type="video/mp4" />
         </video>
       </motion.div>
       <motion.div
