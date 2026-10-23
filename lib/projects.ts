@@ -31,7 +31,7 @@ const project = (file: string) => `/images/projects/${file}`;
 export const projects: Project[] = [
   {
     slug: "2bhk-residence",
-    title: "The 2BHK Skyline Residence",
+    title: "Kumar Prajwal",
     category: "Residential",
     location: "Pune, India",
     style: "Contemporary 2BHK",
@@ -48,7 +48,7 @@ export const projects: Project[] = [
   },
   {
     slug: "modi-residence",
-    title: "The Modi Residence",
+    title: "Myntra Mesmar",
     category: "Residential",
     location: "Pune, India",
     style: "Duplex 3BHK, Vastu-Compliant",
@@ -65,7 +65,7 @@ export const projects: Project[] = [
   },
   {
     slug: "datta-restaurant",
-    title: "Datta Restaurant",
+    title: "Bottom Up",
     category: "Commercial",
     location: "Pune, India",
     style: "Warm Industrial Dining",
@@ -80,7 +80,7 @@ export const projects: Project[] = [
   },
   {
     slug: "mukesh-office",
-    title: "Mukesh Office",
+    title: "Surekh Developers",
     category: "Office",
     location: "Pune, India",
     style: "Loft Workspace",
