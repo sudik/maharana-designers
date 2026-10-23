@@ -83,8 +83,8 @@ export default function AboutPage() {
       <section className="max-w-6xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
         <RevealImage className="relative aspect-[4/5] order-2 md:order-1">
           <Image
-            src="/images/projects/modi-residence/02-living-room.jpg"
-            alt="Recent work by Shiboo Maharana — The Modi Residence"
+            src="/images/projects/myntra-mesmar/02-living-room.jpg"
+            alt="Recent work by Shiboo Maharana — Myntra Mesmar"
             fill
             sizes="(min-width: 768px) 50vw, 100vw"
             className="object-cover"
