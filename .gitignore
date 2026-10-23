@@ -32,3 +32,8 @@ next-env.d.ts
 
 # deploy artifacts
 *-deploy.zip
+*-source.zip
+*-static.zip
+
+# raw, unprocessed source footage — not web assets, too large to commit
+/source-videos/

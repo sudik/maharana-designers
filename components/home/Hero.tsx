@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
@@ -21,14 +20,16 @@ export default function Hero() {
   return (
     <section ref={ref} className="relative h-screen min-h-[640px] w-full overflow-hidden">
       <motion.div style={{ y: imageY }} className="absolute inset-0 h-[125%]">
-        <Image
-          src="/images/stock/living-white-wood-slats.jpg"
-          alt="Featured interior design project"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster="/images/hero-poster.jpg"
+          className="h-full w-full object-cover"
+        >
+          <source src="/videos/hero-kitchen.mp4" type="video/mp4" />
+        </video>
       </motion.div>
       <motion.div
         style={{ opacity: overlayOpacity }}
